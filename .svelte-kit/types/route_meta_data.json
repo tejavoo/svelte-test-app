@@ -1,0 +1,21 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/account": [
+		"src/routes/account/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/auth/confirm": [
+		"src/routes/auth/confirm/+server.ts"
+	],
+	"/auth/error": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	]
+}
